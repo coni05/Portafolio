@@ -10,24 +10,38 @@
 /********** main **********/
 .contenedor{
     border: solid 2px rgb(0, 0, 0);
+    width: 30%;
+    margin-left: auto;
+    margin-right:auto;
 }
 /********** Sección 1 *********/
-.caja1 img{
-    border-radius: 40% 40% 0% 0%;
-    height:10 rem;
+
+.caja1{
+    border: solid 2px red;
+    width: 350px;
 }
+.caja1 img{
+    border-radius: 50% 50% 50% 50%;
+    height:200px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
 /********** Sección 2 *********/
 .caja2{
-    border: solid 3px rgb(42, 86, 46);
-
+    margin-left: 30%; 
+    margin-top: 0%;
+    z-index: 5;
+    top: 0%;
 }
 /********** Sección 3 *********/
 .caja3{
-    border: solid 3px rgb(181, 20, 146);
+    margin-left: 30%;
 
 }
 /********** Sección 4 *********/
 .caja4{
-    border: solid 3px rgb(102, 10, 155);
+    margin-left: 10px;
 }
 /**/
