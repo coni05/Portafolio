@@ -1,47 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 /*********** Variables ************/
 
 :root{
-    --fondo1:#400E0A;
-    --color-texto1: #D58234;
-    --fondo2:#D3D9D5;
-    --color-texto2:#000000;
+    --derecho:#79A47E;
+    --foto2:#EC5D32;
 }
 
 /********** main **********/
 .contenedor{
     border: solid 2px rgb(0, 0, 0);
-    width: 30%;
+    width: 50%;
     margin-left: auto;
     margin-right:auto;
 }
-/********** Sección 1 *********/
-
-.caja1{
-    border: solid 2px red;
-    width: 350px;
-}
-.caja1 img{
-    border-radius: 50% 50% 50% 50%;
-    height:200px;
-    width: 200px;
-    margin-top: 5%;
-    margin-left: 3%;
+/********** Lado-derecho *********/
+.lado-derecho{
+    background-color: #d38f4b;
+    width: 60%;
 }
 
-/********** Sección 2 *********/
-.caja2{
-    margin-left: 30%; 
-    margin-top: 0%;
-    z-index: 5;
-    top: 0%;
+.lado-izquierdo{
+    background: url(foto-Photoroom.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
 }
-/********** Sección 3 *********/
-.caja3{
-    margin-left: 30%;
+#pantalla-dividida{
+    display: flex;
 
 }
-/********** Sección 4 *********/
-.caja4{
-    margin-left: 10px;
+
+h1{
+    width: 50%;
+    margin: auto;
 }
-/**/
